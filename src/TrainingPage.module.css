@@ -1,0 +1,391 @@
+/* Training page CSS */
+
+
+.trainingPageHome {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+
+.header {
+  background-color: #002147;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 80px;
+  color: #fff;
+  font: 600 14px Poppins, sans-serif;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 16px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactIcon {
+  width: 33px;
+  height: 33px;
+  object-fit: contain;
+}
+
+.contactText {
+  margin-left: 8px;
+}
+
+.logo {
+  width: 245px;
+  object-fit: contain;
+}
+
+.navigation {
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(34, 34, 34, 0.05);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+  font: 400 16px Poppins, sans-serif;
+}
+
+.navLogo {
+  width: 166px;
+  object-fit: contain;
+}
+
+.navList {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  color: #010101;
+  text-decoration: none;
+}
+
+.navLink:hover, .navLink:focus {
+  color: #eb5d00;
+  font-weight: 600;
+}
+
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 602px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroTitle {
+  position: relative;
+  font: 700 48px Poppins, sans-serif;
+  z-index: 1;
+}
+
+.missionSection {
+  background-color: #ffd9b4;
+  width: 100%;
+  padding: 74px 80px;
+  text-align: center;
+}
+
+.missionTitle {
+  color: #101010;
+  font: 600 32px Poppins, sans-serif;
+  margin-bottom: 32px;
+}
+
+.missionText {
+  color: #000;
+  font: 400 20px/32px Poppins, sans-serif;
+  max-width: 841px;
+  margin: 0 auto;
+}
+
+.latestNewsSection {
+  background-color: #fdf5f0;
+  border-radius: 8px;
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.newsSidebar {
+  width: 28%;
+}
+
+.newsTitle {
+  color: #1b1b1b;
+  font: 600 32px Poppins, sans-serif;
+}
+
+.highlight {
+  color: #eb5d00;
+}
+
+.newsSubtitle {
+  color: #000;
+  font: 400 18px Poppins, sans-serif;
+  margin-top: 24px;
+}
+
+.viewAllButton {
+  background-color: #eb5d00;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font: 700 16px 'DM Sans', sans-serif;
+  cursor: pointer;
+  margin-top: 48px;
+}
+
+.newsArticle {
+  width: 72%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  gap: 20px;
+}
+
+.newsImage {
+  width: 41%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.newsContent {
+  width: 59%;
+}
+
+.newsMetadata {
+  color: #eb5d00;
+  font: 600 14px Poppins, sans-serif;
+}
+
+.metaSeparator {
+  color: #cecece;
+}
+
+.newsText {
+  color: #222;
+  font: 400 16px/24px Poppins, sans-serif;
+  margin-top: 20px;
+}
+
+.readMoreLink {
+  color: #eb5d00;
+  text-decoration: none;
+  font: 400 16px Poppins, sans-serif;
+  margin-top: 20px;
+}
+
+.keyObjectivesSection {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.objectivesTitle {
+  color: #1b1b1b;
+  font: 600 32px Poppins, sans-serif;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.objectivesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1241px;
+  margin: 0 auto;
+}
+
+.objectiveCard {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 1.192;
+  display: flex;
+  align-items: flex-end;
+}
+
+.objectiveImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.objectiveText {
+  position: relative;
+  color: #fff;
+  font: 700 26px/34px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+  padding: 32px;
+  background-color: rgba(15, 15, 15, 0.4);
+  width: 100%;
+}
+
+.testimonialSection {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.testimonialBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonialContent {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.quoteIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.testimonialText {
+  font: 400 26px/40px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.partnersSection {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.partnersTitle {
+  color: #1b1b1b;
+  font: 600 28px Poppins, sans-serif;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.partnersGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1117px;
+  margin: 0 auto;
+}
+
+.partnerCard {
+  border-radius: 10px;
+  border: 1px solid #eb5d00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.partnerLogo {
+  max-width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.footer {
+  background-color: #012148;
+  width: 100%;
+  margin-top: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.footerContent {
+  padding: 33px 80px;
+}
+
+.footerTitle {
+  font: 700 16px Karla, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #f2b636;
+}
+
+.socialIcons {
+  margin-top: 24px;
+  max-width: 100%;
+}
+
+.footerEmail {
+  color: #878c9b;
+  font: 400 16px/2 Karla, sans-serif;
+  margin-top: 26px;
+}
+
+.copyright {
+  background-color: #0e1220;
+  padding: 17px 70px;
+  font: 400 14px/1.8 Karla, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .header,
+  .navigation,
+  .missionSection,
+  .latestNewsSection,
+  .keyObjectivesSection,
+  .testimonialSection,
+  .partnersSection,
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heroTitle {
+    font-size: 40px;
+  }
+
+  .objectivesGrid,
+  .partnersGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .newsArticle {
+    flex-direction: column;
+  }
+
+  .newsImage,
+  .newsContent {
+    width: 100%;
+  }
+}
+
